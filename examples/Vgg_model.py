@@ -65,6 +65,9 @@ for i in range(8):
 #fig set title (name of the last layer)
 plt.suptitle('Convolution layer : ' + feature_model.layers[-1].name)
 plt.show()
+#save image example directory as VGG16_feature_map_bird.jpg
+#fig2.savefig('../data/Pictures/VGG16_feature_map_bird.jpg')
+
 
 
 
