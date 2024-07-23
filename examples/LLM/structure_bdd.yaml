@@ -1,0 +1,20 @@
+Table: users
+Columns:
+- id: INTEGER (PK)
+- name: TEXT
+- email: TEXT
+- created_at: DATETIME
+
+Table: orders
+Columns:
+- order_id: INTEGER (PK)
+- user_id: INTEGER (FK, references users.id)
+- product_id: INTEGER (FK, references products.product_id)
+- quantity: INTEGER
+- order_date: DATETIME
+
+Table: products
+Columns:
+- product_id: INTEGER (PK)
+- product_name: TEXT
+- price: REAL
