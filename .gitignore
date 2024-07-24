@@ -1,2 +1,4 @@
 /model/
 /examples/LLM/env_variables.py
+examples/LLM/rag_db/
+examples/LLM/Rag_document_example1.txt
